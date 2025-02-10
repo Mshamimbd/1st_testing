@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 1.25rem;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .section-title {
+            margin: 30px 0;
+            font-size: 2rem;
+            text-align: center;
+            font-weight: bold;
+        }
+        .about {
+            padding: 50px 15px;
+        }
+        .projects {
+            padding: 50px 15px;
+            background-color: #e9ecef;
+        }
+        .contact {
+            padding: 50px 15px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Welcome to My Portfolio</h1>
+            <p>Creative Designer & Developer</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="" alt="About Me" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <p>Hello! I am a passionate web developer and designer with a knack for creating beautiful and functional web experiences. My goal is to bring ideas to life and make the web a better place, one project at a time.</p><br>
+					<p>Hello! I am a passionate web developer and designer with a knack for creating beautiful and functional web experiences. My goal is to bring ideas to life and make the web a better place, one project at a time.</p><br>
+					<p>Hello! I am a passionate web developer and designer with a knack for creating beautiful and functional web experiences. My goal is to bring ideas to life and make the web a better place, one project at a time.</p><br>
+					<p>Hello! I am a passionate web developer and designer with a knack for creating beautiful and functional web experiences. My goal is to bring ideas to life and make the web a better place, one project at a time.</p><br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">IT Consultancy</h5>
+                            <p class="card-text">A brief description of the project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Study Consultancy</h5>
+                            <p class="card-text">A brief description of the project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Business Admin Consultancy</h5>
+                            <p class="card-text">A brief description of the project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 II Shamim. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
